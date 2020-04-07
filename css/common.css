@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	font-size: 100%;
+	/*ベース10px*/
+	line-height: 1.7;
+}
+body {
+	width: 100%;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #201507;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	font-weight: 700;
+}
+h1 {
+	font-size: 21px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: #3e3a39;
+}
+.visible-desktop {
+	display: none !important;
+}
+.mt0 {
+	margin-top: 0px !important;
+}
+.mt5 {
+	margin-top: 5px !important;
+}
+.mt10 {
+	margin-top: 10px !important;
+}
+.mt15 {
+	margin-top: 15px !important;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+.mt30 {
+	margin-top: 30px !important;
+}
+.mt40 {
+	margin-top: 40px !important;
+}
+.mt50 {
+	margin-top: 50px !important;
+}
+.mr0 {
+	margin-right: 0px !important;
+}
+.mr10 {
+	margin-right: 10px !important;
+}
+.mr20 {
+	margin-right: 20px !important;
+}
+.mr30 {
+	margin-right: 30px !important;
+}
+.mr40 {
+	margin-right: 40px !important;
+}
+.mr50 {
+	margin-right: 50px !important;
+}
+.mb0 {
+	margin-bottom: 0px !important;
+}
+.mb5 {
+	margin-bottom: 5px !important;
+}
+.mb10 {
+	margin-bottom: 10px !important;
+}
+.mb15 {
+	margin-bottom: 15px !important;
+}
+.mb20 {
+	margin-bottom: 20px !important;
+}
+.mb30 {
+	margin-bottom: 30px !important;
+}
+.mb40 {
+	margin-bottom: 40px !important;
+}
+.mb50 {
+	margin-bottom: 50px !important;
+}
+.ml0 {
+	margin-left: 0px !important;
+}
+.ml10 {
+	margin-left: 10px !important;
+}
+.ml20 {
+	margin-left: 20px !important;
+}
+.ml30 {
+	margin-left: 30px !important;
+}
+.ml40 {
+	margin-left: 40px !important;
+}
+.ml50 {
+	margin-left: 50px !important;
+}
+.pt0 {
+	padding-top: 0px !important;
+}
+.pt10 {
+	padding-top: 10px !important;
+}
+.pt20 {
+	padding-top: 20px !important;
+}
+.pt30 {
+	padding-top: 30px !important;
+}
+.pt40 {
+	padding-top: 40px !important;
+}
+.pt50 {
+	padding-top: 50px !important;
+}
+.pr0 {
+	padding-right: 0px !important;
+}
+.pr10 {
+	padding-right: 10px !important;
+}
+.pr20 {
+	padding-right: 20px !important;
+}
+.pr30 {
+	padding-right: 30px !important;
+}
+.pr40 {
+	padding-right: 40px !important;
+}
+.pr50 {
+	padding-right: 50px !important;
+}
+.pb0 {
+	padding-bottom: 0px !important;
+}
+.pb10 {
+	padding-bottom: 10px !important;
+}
+.pb20 {
+	padding-bottom: 20px !important;
+}
+.pb30 {
+	padding-bottom: 30px !important;
+}
+.pb40 {
+	padding-bottom: 40px !important;
+}
+.pb50 {
+	padding-bottom: 50px !important;
+}
+.pl0 {
+	padding-left: 0px !important;
+}
+.pl10 {
+	padding-left: 10px !important;
+}
+.pl20 {
+	padding-left: 20px !important;
+}
+.pl30 {
+	padding-left: 30px !important;
+}
+.pl40 {
+	padding-left: 40px !important;
+}
+.pl50 {
+	padding-left: 50px !important;
+}
+/*
+## t_l t_c t_r
+ 
+文字の揃え指定
+ 
+```
+	<p class="t_l">text align left</p>
+	<p class="t_c">text align center</p>
+	<p class="t_r">text align right</p>
+	
+```
+*/
+.t_l {
+	text-align: left !important;
+}
+.t_c {
+	text-align: center !important;
+}
+.t_r {
+	text-align: right !important;
+}
+@media only screen and (max-width: 640px) {
+  .sp-t_l {
+	  text-align: left !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sp-t_c {
+	  text-align: center !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sp-t_r {
+	  text-align: right !important;
+  }
+}
+.sp_only {
+	display: none;
+	visibility: hidden;
+}
+@media screen and (max-width: 620px) {
+	.sp_only {
+		display: block;
+		visibility: visible;
+	}
+}
+/* layout style */
+.small_inner {
+	width: 100%!important;
+	max-width: 470px!important;
+	padding: 0 20px 0 20px;
+	margin: 0 auto 0 auto!important;
+}
+.large_inner {
+	width: 100%!important;
+	max-width: 960px!important;
+	padding: 0 20px 0 20px;
+	margin: 0 auto 0 auto!important;
+}
+.common_inner {
+	width: 100%!important;
+	max-width: 660px!important;
+	padding: 0 20px 0 20px;
+	margin: 0 auto 0 auto!important;
+}
+.flex {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+}
+.common_title {
+	font-family: "DIN Condensed Bold";
+	text-align: center;
+	font-size: 50px;
+	line-height: 70px;
+	color: #ffffff;
+	margin-top: 0px;
+}
+.common_title span {
+	background: #201507;
+	padding: 10px 20px 0px 20px;
+}
+.breadcrumb_box {
+	padding-top: 12px;
+	padding-bottom: 20px;
+	background: #e9e9e9;
+}
+.breadcrumb {
+	justify-content: flex-start;
+	align-items: center;
+}
+.breadcrumb .home {
+	background: #50a0b4;
+	border: 2px solid #50a0b4;
+	color: #ffffff;
+	font-family: "DIN Condensed Bold", 'Noto Sans JP', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
+	padding: 10px 15px;
+	text-decoration: none;
+	margin: 0 10px 0 0;
+	transition: 0.6s;
+}
+.breadcrumb .home:hover {
+	background: #ffffff;
+	color: #313131;
+	transition: 0.6s;
+}
+.breadcrumb .child_b {
+	background: #201507;
+	border: 2px solid #201507;
+	color: #ffffff;
+	font-family: "DIN Condensed Bold", 'Noto Sans JP', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
+	padding: 10px 15px;
+	text-decoration: none;
+	margin: 0 10px 0 0;
+}
+.breadcrumb .child_b:hover {
+	background: #ffffff;
+	color: #201507;
+	transition: 0.6s;
+}
+/* pager Style Settings */
+.pager_box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.pre_next {
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "DIN Condensed Bold", 'Noto Sans JP', sans-serif;
+}
+.pre_next a {
+	text-decoration: none;
+}
+.pre_next .page-numbers {
+	display: block;
+	background: #313131;
+	border: 2px solid #313131;
+	color: #ffffff;
+	padding: 8px 10px 5px 10px;
+	margin: 0 15px 0 0;
+}
+.pre_next .dots {
+	background: none!important;
+	border: none!important;	
+	color: #313131;
+}
+.pre_next .page-numbers:hover,
+.pre_next .page-numbers:active {
+	background-color: #ffffff;
+	color: #313131;
+	transition: .6s;
+}
+.pre_next .dots:hover,
+.pre_next .dots:active {
+	opacity: inherit;
+	background-color: inherit;
+}
+.pre_next .current {
+	background-color: #50a0b4;
+	border: 2px solid #50a0b4;
+	font-weight: 700;
+}
+.pre_next .current:hover,
+.pre_next .current:active {
+	background-color: #50a0b4;
+	border: 2px solid #50a0b4;
+	color: #ffffff;
+}
+.pager {
+	justify-content: space-between;
+	align-items: center;
+}
+.pager .pre,
+.pager .next {
+	justify-content: space-between;
+	align-items: center;
+	width: calc(100% / 3);
+	text-decoration: none;
+}
+.pager .view {
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	background: #50a0b4;
+	border: 2px solid #50a0b4;
+	padding: 20px 0;
+	color: #ffffff;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-size: 13px;
+	font-weight: 700;
+	transition: 0.6s;
+}
+.pager .view:hover {
+	background: #ffffff;
+	color: #313131;
+	transition: 0.6s;
+}
+.pager .pre,
+.pager .next {
+	background: #eeeeee;
+}
+.pager .pre div,
+.pager .next div {
+	padding: 10px 10px;
+	width: 150px;
+	overflow: hidden;
+}
+.pager .pre div img,
+.pager .next div img {
+	transition: 0.6s;
+}
+.pager .pre:hover div img,
+.pager .next:hover div img {
+	transform: scale(1.2);
+	transition: 0.6s;
+}
+.pager .pre h3,
+.pager .next h3 {
+	width: calc(100% - 150px);
+	padding: 0 15px 0 15px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-size: 13px;
+}
+@media screen and (max-width: 620px) {
+	.common_title {
+		font-size: 30px;
+		line-height: 60px;
+	}
+	.common_title span {
+		padding: 10px 10px 0px 10px;
+	}
+	.breadcrumb .home {
+		font-size: 10px;
+		padding: 8px 12px;
+	}
+	.breadcrumb .child_b {
+		font-size: 10px;
+		padding: 8px 12px;
+	}
+	/* pager Style Settings */
+	.pre_next {
+		font-size: 10px;
+	}
+	.pre_next .page-numbers {
+		padding: 3px 8px;
+		margin: 0 10px 0 0;
+	}
+	.pager {
+		flex-wrap: wrap;
+	}
+	.pager .pre {
+		order: 1;
+		margin: 0 0 15px 0;
+	}
+	.pager .next {
+		order: 2;
+		margin: 0 0 15px 0;
+	}
+	.pager .pre,
+	.pager .next {
+		width: 100%;
+	}
+	.pager .view {
+		order: 3;
+		width: 100px;
+		margin: 0 auto 0 auto;
+	}
+	.pager .pre:hover div img,
+	.pager .next:hover div img {
+		transform: scale(1.1);
+	}
+	.pager .pre h3,
+	.pager .next h3 {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+footer .footer_tel {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #f0a05a;
+}
+footer .footer_tel img {
+	width: 100%;
+	max-width: 325px;
+	margin: 0 auto 0 auto;
+}
+footer .footer_contact {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #50a0b4;
+}
+footer .footer_contact img {
+	width: 100%;
+	max-width: 220px;
+	margin: 0 auto 0 auto;
+}
+footer .footer_copy {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #201507;
+}
+footer .footer_copy p {
+	font-family: "DIN Condensed Bold";
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+}
+footer .page_top {
+	position: fixed;
+	bottom: 0px;
+	left: calc(50% + 440px);
+	transform: translateY(0%) translateX(-50%);
+	-webkit-transform: translateY(0%) translateX(-50%);
+	width: 60px;
+	z-index: 10;
+}
+@media screen and (max-width:960px) {
+	footer .page_top {
+		left: auto;
+		right: 20px;
+		transform: translateY(auto) translateX(auto);
+		-webkit-transform: translateY(auto) translateX(auto);
+		width: 50px;
+	}
+}
+@media screen and (max-width:640px) {
+	footer .page_top {
+		width: 40px;
+	}
+}

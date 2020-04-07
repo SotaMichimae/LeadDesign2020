@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*
+Theme Name: LeadDesign inc. 2020
+Author: Lead Design inc.
+Description: All
+*/
+/* CSS Document */
+
+/*reset*/
+@import url("css/reset.css");
+/*header*/
+@import url("css/header.css");
+/*footer*/
+@import url("css/footer.css");
+/*common*/
+@import url("css/common.css");
+/*index*/
+@import url("css/top.css");
+/*&BASE*/
+@import url("css/and-base.css");
+/*portfolio_view*/
+@import url("css/portfolio.css");
+/*contact*/
+@import url("css/contact.css");
+/*slick*/
+@import url("js/slick-theme.css");
+@import url("js/slick.css");
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap');
+@font-face {
+	font-family: "DIN Condensed Bold";
+	font-style: normal;
+	font-weight: normal;
+	src: local("DIN Condensed Bold"), url("font/DINCondensed-Bold.woff") format("woff");
+}

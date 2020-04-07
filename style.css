@@ -18,6 +18,8 @@ Description: All
 @import url("css/top.css");
 /*&BASE*/
 @import url("css/and-base.css");
+/*price*/
+@import url("css/price.css");
 /*portfolio_view*/
 @import url("css/portfolio.css");
 /*contact*/

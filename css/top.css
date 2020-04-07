@@ -538,6 +538,10 @@
 		font-size: 15px;
 		margin-top: 20px;
 	}
+	.top_business .price_caption {
+		font-size: 15px;
+		margin-top: 0px;
+	}
 	.top_about {
 		padding-top: 40px;
 		padding-bottom: 40px;
